@@ -10,4 +10,4 @@ Repositorio creado para realizar las actividades del curso.
 | Integrante | Lautaro Joaquín Quevedo | quevedojoaquin@outlook.com | LautaroJQ |
 | Integrante | Tiago Moyano |  | TiagoMoyano |
 | Integrante | Joaquin Marini |  | Joamarini |
-| Integrante | Dante Lamorte |  | DanteLamorte |
+| Integrante | Dante Lamorte | dantelamorte@outlook.com | DanteLamorte |
