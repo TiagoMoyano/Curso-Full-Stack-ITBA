@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@400;600;700&display=swap");
+
+:root {
+  --fuente-base: "Inter", sans-serif;
+  --fuente-titulo: "Playfair Display", serif;
+
+  --tamaño-titulo: 2.5rem;
+  --tamaño-cuerpo: 1rem;
+  --tamaño-leyenda: 0.9rem;
+  --tamaño-boton: 0.9rem;
+
+  --peso-regular: 400;
+  --peso-medium: 500;
+  --peso-bold: 700;
+
+  --altura-linea-cuerpo: 1.6;
+  --espaciado-titulo: 0.1em;
+  --espaciado-leyenda: 0.02em;
+  --espaciado-boton: 0.08em;
+}
