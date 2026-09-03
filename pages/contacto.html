@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contacto de Hermanos Jota: showroom, taller y consultas sobre muebles artesanales sustentables."
+    />
+    <title>Contacto | Hermanos Jota</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <script src="../contacto.js" defer></script>
+  </head>
+  <body>
+    <a class="enlace-saltar" href="#contenido-principal">Saltar al contenido</a>
+
+    <header class="encabezado-sitio">
+      <div class="contenedor encabezado-contenido">
+        <a class="marca" href="../index.html" aria-label="Hermanos Jota - Inicio">
+          <img
+            class="marca-logo"
+            src="../assets/icons/logo.svg"
+            alt=""
+            width="48"
+            height="48"
+          />
+          <span class="marca-texto">
+            <span class="marca-nombre">Hermanos Jota</span>
+            <span class="marca-subtitulo">Muebles con historia</span>
+          </span>
+        </a>
+
+        <nav class="navegacion-principal" aria-label="Navegación principal">
+          <ul class="lista-navegacion">
+            <li><a class="enlace-navegacion" href="../index.html">Inicio</a></li>
+            <li><a class="enlace-navegacion" href="productos.html">Productos</a></li>
+            <li>
+              <a class="enlace-navegacion" href="contacto.html" aria-current="page">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="acciones-encabezado">
+          <a class="indicador-carrito" href="productos.html" aria-label="Carrito con 0 productos">
+            <span>Carrito</span>
+            <span class="contador-carrito" data-cart-count>0</span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main id="contenido-principal">
+      <section class="portada-contacto">
+        <div class="contenedor">
+          <p class="volanta">Showroom y taller</p>
+          <h1>Contacto</h1>
+          <p class="bajada">
+            Te acompañamos a elegir piezas nobles, pensadas para convivir con tu casa
+            durante años.
+          </p>
+        </div>
+      </section>
+
+      <section class="seccion">
+        <div class="contenedor distribucion-contacto">
+          <article class="panel-contacto" aria-labelledby="titulo-formulario">
+            <div class="encabezado-seccion">
+              <p class="volanta">Consultas</p>
+              <h2 id="titulo-formulario">Escribinos</h2>
+              <p class="bajada">
+                Contanos qué ambiente querés renovar o qué pieza te interesa conocer.
+              </p>
+            </div>
+
+            <form class="formulario-contacto" id="contact-form" novalidate>
+              <div class="grilla-formulario">
+                <div class="campo-formulario">
+                  <label for="nombre">Nombre</label>
+                  <input
+                    id="nombre"
+                    name="nombre"
+                    type="text"
+                    autocomplete="name"
+                    required
+                    minlength="2"
+                    placeholder="Tu nombre"
+                    aria-describedby="nombre-error"
+                  />
+                  <p class="error-campo" id="nombre-error" aria-live="polite"></p>
+                </div>
+
+                <div class="campo-formulario">
+                  <label for="email">Email</label>
+                  <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    autocomplete="email"
+                    required
+                    placeholder="tu@email.com"
+                    aria-describedby="email-error"
+                  />
+                  <p class="error-campo" id="email-error" aria-live="polite"></p>
+                </div>
+
+                <div class="campo-formulario campo-formulario-completo">
+                  <label for="mensaje">Mensaje</label>
+                  <textarea
+                    id="mensaje"
+                    name="mensaje"
+                    required
+                    minlength="10"
+                    placeholder="Quiero consultar por..."
+                    aria-describedby="mensaje-ayuda mensaje-error"
+                  ></textarea>
+                  <p class="ayuda-campo" id="mensaje-ayuda">
+                    Incluí medidas, madera preferida o el producto que viste en el catálogo.
+                  </p>
+                  <p class="error-campo" id="mensaje-error" aria-live="polite"></p>
+                </div>
+              </div>
+
+              <div class="acciones-formulario">
+                <button class="boton boton-principal" type="submit">Enviar mensaje</button>
+                <button class="boton boton-transparente" type="reset">Limpiar</button>
+              </div>
+
+              <p class="estado-formulario" id="form-status" role="status" aria-live="polite" hidden></p>
+            </form>
+          </article>
+
+          <aside class="informacion-contacto" aria-labelledby="titulo-datos-contacto">
+            <div class="imagen-contacto">
+              <img
+                src="../assets/images/Aparador Uspallata.png"
+                alt="Aparador de madera Hermanos Jota en ambiente cálido"
+              />
+            </div>
+
+            <div class="cuerpo-informacion-contacto">
+              <div>
+                <p class="volanta">Casa Taller</p>
+                <h2 id="titulo-datos-contacto">Hermanos Jota</h2>
+              </div>
+
+              <dl class="lista-informacion">
+                <div>
+                  <dt>Dirección</dt>
+                  <dd>Av. San Juan 2847, San Cristóbal, CABA</dd>
+                </div>
+                <div>
+                  <dt>Horarios</dt>
+                  <dd>Lunes a viernes de 10:00 a 19:00</dd>
+                  <dd>Sábados de 10:00 a 14:00</dd>
+                </div>
+                <div>
+                  <dt>Email</dt>
+                  <dd><a href="mailto:info@hermanosjota.com.ar">info@hermanosjota.com.ar</a></dd>
+                </div>
+                <div>
+                  <dt>WhatsApp</dt>
+                  <dd><a href="https://wa.me/541145678900">+54 11 4567-8900</a></dd>
+                </div>
+                <div>
+                  <dt>Instagram</dt>
+                  <dd><a href="https://www.instagram.com/hermanosjota_ba">@hermanosjota_ba</a></dd>
+                </div>
+              </dl>
+
+              <div class="enlaces-contacto" aria-label="Canales rápidos">
+                <a class="boton boton-secundario" href="mailto:ventas@hermanosjota.com.ar">Ventas</a>
+                <a class="boton boton-secundario" href="https://wa.me/541145678900">WhatsApp</a>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="pie-sitio">
+      <div class="contenedor pie-contenido">
+        <div class="pie-marca">
+          <span class="pie-titulo">Hermanos Jota</span>
+          <p>Muebles artesanales, materiales nobles y diseño atemporal.</p>
+        </div>
+        <ul class="enlaces-pie" aria-label="Enlaces del sitio">
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="productos.html">Productos</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
