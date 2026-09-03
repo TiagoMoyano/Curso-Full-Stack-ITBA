@@ -1,0 +1,32 @@
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    justify-items: center;
+  }
+  .contenedorProducto {
+    display: grid;
+    background-color: white;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    gap: 10px;
+    align-items: stretch;
+  }
+  .contenedorImagen {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .precio {
+    font-size: 1.5rem;
+  }
+
+  button {
+    font-size: 1rem;
+  }
+}

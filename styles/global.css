@@ -1,0 +1,45 @@
+:root {
+  --color-siena: #a0522d;
+  --color-salvia: #87a96b;
+  --color-alabastro: #f5e6d3;
+  --color-oro: #d4a437;
+  --color-rosa: #c47a6d;
+  --color-tinta: #2b211c;
+  --color-tinta-suave: #66584f;
+  --color-linea: #d9c8b5;
+  --color-fondo: #fffaf4;
+  --color-blanco: #ffffff;
+  --color-error: #b42318;
+  --color-exito: #2f6b3f;
+
+  --fuente-base:
+    Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --fuente-titulo: "Playfair Display", Georgia, "Times New Roman", serif;
+
+  --contenedor: 1120px;
+  --radio: 8px;
+  --sombra-suave: 0 16px 40px rgba(43, 33, 28, 0.1);
+}
+
+body {
+  background-color: var(--color-alabastro);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--fuente-titulo);
+  font-size: var(--tamaño-titulo);
+  font-weight: var(--peso-bold);
+  letter-spacing: var(--espaciado-titulo);
+}
+
+p {
+  font-family: var(--fuente-base);
+  font-size: var(--tamaño-cuerpo);
+  line-height: var(--altura-linea-cuerpo);
+  font-weight: var(--peso-regular);
+}
